@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- saved from url=(0022)http://localhost:3000/ -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <link rel="icon" href="http://localhost:3000/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#000000">
+    <meta name="description" content="Web site created using create-react-app">
+    <link href="./SheCodes Dictionary App_files/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="apple-touch-icon" href="http://localhost:3000/logo192.png">
+    <!--
+      manifest.json provides metadata used when your web app is installed on a
+      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
+    -->
+    <link rel="manifest" href="http://localhost:3000/manifest.json">
+    <!--
+      Notice the use of  in the tags above.
+      It will be replaced with the URL of the `public` folder during the build.
+      Only files inside the `public` folder can be referenced from the HTML.
+
+      Unlike "/favicon.ico" or "favicon.ico", "/favicon.ico" will
+      work correctly both with client-side routing and a non-root public URL.
+      Learn how to configure a non-root public URL by running `npm run build`.
+    -->
+    <title>SheCodes Dictionary App</title>
+  <style>body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvaW5kZXguY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsU0FBUztFQUNUOztjQUVZO0VBQ1osbUNBQW1DO0VBQ25DLGtDQUFrQztBQUNwQzs7QUFFQTtFQUNFO2FBQ1c7QUFDYiIsInNvdXJjZXNDb250ZW50IjpbImJvZHkge1xuICBtYXJnaW46IDA7XG4gIGZvbnQtZmFtaWx5OiAtYXBwbGUtc3lzdGVtLCBCbGlua01hY1N5c3RlbUZvbnQsICdTZWdvZSBVSScsICdSb2JvdG8nLCAnT3h5Z2VuJyxcbiAgICAnVWJ1bnR1JywgJ0NhbnRhcmVsbCcsICdGaXJhIFNhbnMnLCAnRHJvaWQgU2FucycsICdIZWx2ZXRpY2EgTmV1ZScsXG4gICAgc2Fucy1zZXJpZjtcbiAgLXdlYmtpdC1mb250LXNtb290aGluZzogYW50aWFsaWFzZWQ7XG4gIC1tb3otb3N4LWZvbnQtc21vb3RoaW5nOiBncmF5c2NhbGU7XG59XG5cbmNvZGUge1xuICBmb250LWZhbWlseTogc291cmNlLWNvZGUtcHJvLCBNZW5sbywgTW9uYWNvLCBDb25zb2xhcywgJ0NvdXJpZXIgTmV3JyxcbiAgICBtb25vc3BhY2U7XG59XG4iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>body {
+  background: #f9f8fe;
+}
+
+a {
+  color: #9670f4;
+}
+
+.App-header {
+    margin: 30px 0;
+}
+
+.App-logo {
+    max-width: 200px;
+    display: block;
+    margin: 0 auto;
+}
+
+.App-footer {
+  text-align: center;  
+  margin: 30px 0;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvQXBwLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtFQUNFLG1CQUFtQjtBQUNyQjs7QUFFQTtFQUNFLGNBQWM7QUFDaEI7O0FBRUE7SUFDSSxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGNBQWM7SUFDZCxjQUFjO0FBQ2xCOztBQUVBO0VBQ0Usa0JBQWtCO0VBQ2xCLGNBQWM7QUFDaEIiLCJzb3VyY2VzQ29udGVudCI6WyJib2R5IHtcclxuICBiYWNrZ3JvdW5kOiAjZjlmOGZlO1xyXG59XHJcblxyXG5hIHtcclxuICBjb2xvcjogIzk2NzBmNDtcclxufVxyXG5cclxuLkFwcC1oZWFkZXIge1xyXG4gICAgbWFyZ2luOiAzMHB4IDA7XHJcbn1cclxuXHJcbi5BcHAtbG9nbyB7XHJcbiAgICBtYXgtd2lkdGg6IDIwMHB4O1xyXG4gICAgZGlzcGxheTogYmxvY2s7XHJcbiAgICBtYXJnaW46IDAgYXV0bztcclxufVxyXG5cclxuLkFwcC1mb290ZXIge1xyXG4gIHRleHQtYWxpZ246IGNlbnRlcjsgIFxyXG4gIG1hcmdpbjogMzBweCAwO1xyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><style>.Meaning h3 {
+    font-size: 24px;
+    line-height: 1.5;
+    font-weight: bold;
+}
+
+.Meaning .example {
+    color: #70757a;
+    font-style: italic;
+    margin-top: 10px;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvTWVhbmluZy5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2YsZ0JBQWdCO0lBQ2hCLGlCQUFpQjtBQUNyQjs7QUFFQTtJQUNJLGNBQWM7SUFDZCxrQkFBa0I7SUFDbEIsZ0JBQWdCO0FBQ3BCIiwic291cmNlc0NvbnRlbnQiOlsiLk1lYW5pbmcgaDMge1xyXG4gICAgZm9udC1zaXplOiAyNHB4O1xyXG4gICAgbGluZS1oZWlnaHQ6IDEuNTtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG59XHJcblxyXG4uTWVhbmluZyAuZXhhbXBsZSB7XHJcbiAgICBjb2xvcjogIzcwNzU3YTtcclxuICAgIGZvbnQtc3R5bGU6IGl0YWxpYztcclxuICAgIG1hcmdpbi10b3A6IDEwcHg7XHJcbn0iXSwic291cmNlUm9vdCI6IiJ9 */</style><style>.Phonetic {
+    margin: 20px 0;
+}
+
+.Phonetic a {
+    border: 1px solid #ddd;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    margin-right: 10px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    transition: all 150ms ease-in-out;
+}
+
+.Phonetic a:hover {
+    background: #9670fe;
+    color:white;
+}
+
+.Phonetic .text {
+    opacity: 0.5;
+    font-weight: bold;
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvUGhvbmV0aWMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0lBQ0ksY0FBYztBQUNsQjs7QUFFQTtJQUNJLHNCQUFzQjtJQUN0QixxQkFBcUI7SUFDckIsZUFBZTtJQUNmLGlCQUFpQjtJQUNqQixrQkFBa0I7SUFDbEIsaUJBQWlCO0lBQ2pCLG1CQUFtQjtJQUNuQixpQ0FBaUM7QUFDckM7O0FBRUE7SUFDSSxtQkFBbUI7SUFDbkIsV0FBVztBQUNmOztBQUVBO0lBQ0ksWUFBWTtJQUNaLGlCQUFpQjtBQUNyQiIsInNvdXJjZXNDb250ZW50IjpbIi5QaG9uZXRpYyB7XHJcbiAgICBtYXJnaW46IDIwcHggMDtcclxufVxyXG5cclxuLlBob25ldGljIGEge1xyXG4gICAgYm9yZGVyOiAxcHggc29saWQgI2RkZDtcclxuICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcclxuICAgIGZvbnQtc2l6ZTogMTJweDtcclxuICAgIGZvbnQtd2VpZ2h0OiBib2xkO1xyXG4gICAgbWFyZ2luLXJpZ2h0OiAxMHB4O1xyXG4gICAgcGFkZGluZzogOHB4IDE1cHg7XHJcbiAgICBib3JkZXItcmFkaXVzOiAyMHB4O1xyXG4gICAgdHJhbnNpdGlvbjogYWxsIDE1MG1zIGVhc2UtaW4tb3V0O1xyXG59XHJcblxyXG4uUGhvbmV0aWMgYTpob3ZlciB7XHJcbiAgICBiYWNrZ3JvdW5kOiAjOTY3MGZlO1xyXG4gICAgY29sb3I6d2hpdGU7XHJcbn1cclxuXHJcbi5QaG9uZXRpYyAudGV4dCB7XHJcbiAgICBvcGFjaXR5OiAwLjU7XHJcbiAgICBmb250LXdlaWdodDogYm9sZDtcclxufSJdLCJzb3VyY2VSb290IjoiIn0= */</style><style>.Dictionary h1{
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.Dictionary section {
+    background: white;
+    padding: 30px;
+    border-radius: 6px;
+    box-shadow: 0 10px 20px rgba(0 0 0 / 10%);
+    margin: 20px 0;
+}
+
+.Dictionary input {
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px 4px;
+    border: 1px solid #ddd;
+    color: #333;
+}
+
+.Dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+
+}
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly9zcmMvRGljdGlvbmFyeS5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxlQUFlO0lBQ2YsaUJBQWlCO0lBQ2pCLG1CQUFtQjtBQUN2Qjs7QUFFQTtJQUNJLGlCQUFpQjtJQUNqQixhQUFhO0lBQ2Isa0JBQWtCO0lBQ2xCLHlDQUF5QztJQUN6QyxjQUFjO0FBQ2xCOztBQUVBO0lBQ0ksV0FBVztJQUNYLGtCQUFrQjtJQUNsQixnQkFBZ0I7SUFDaEIsc0JBQXNCO0lBQ3RCLFdBQVc7QUFDZjs7QUFFQTtFQUNFLGVBQWU7RUFDZixlQUFlOztBQUVqQiIsInNvdXJjZXNDb250ZW50IjpbIi5EaWN0aW9uYXJ5IGgxe1xyXG4gICAgZm9udC1zaXplOiAxOHB4O1xyXG4gICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcbiAgICBtYXJnaW4tYm90dG9tOiAyMHB4O1xyXG59XHJcblxyXG4uRGljdGlvbmFyeSBzZWN0aW9uIHtcclxuICAgIGJhY2tncm91bmQ6IHdoaXRlO1xyXG4gICAgcGFkZGluZzogMzBweDtcclxuICAgIGJvcmRlci1yYWRpdXM6IDZweDtcclxuICAgIGJveC1zaGFkb3c6IDAgMTBweCAyMHB4IHJnYmEoMCAwIDAgLyAxMCUpO1xyXG4gICAgbWFyZ2luOiAyMHB4IDA7XHJcbn1cclxuXHJcbi5EaWN0aW9uYXJ5IGlucHV0IHtcclxuICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgYm9yZGVyLXJhZGl1czogNnB4O1xyXG4gICAgcGFkZGluZzogNnB4IDRweDtcclxuICAgIGJvcmRlcjogMXB4IHNvbGlkICNkZGQ7XHJcbiAgICBjb2xvcjogIzMzMztcclxufVxyXG5cclxuLkRpY3Rpb25hcnkgLmhpbnQge1xyXG4gIGZvbnQtc2l6ZTogMTFweDtcclxuICBtYXJnaW4tdG9wOiA1cHg7XHJcblxyXG59Il0sInNvdXJjZVJvb3QiOiIifQ== */</style><script charset="utf-8" src="./SheCodes Dictionary App_files/main.0b0b4db360a5a4a38ed9.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.38426ee2da37fb003ff4.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.27f2aaffd4e3db04eff8.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.b1a644bc9960243950e6.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.337c30c970964373c946.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.30d1774aadb682d57728.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.751ad06204e9cea92af2.hot-update.js.descarga"></script><script charset="utf-8" src="./SheCodes Dictionary App_files/main.e45f2990e47a4f903e4c.hot-update.js.descarga"></script></head>
+  <body data-new-gr-c-s-check-loaded="14.1041.0" data-gr-ext-installed="">
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root"><div class="App"><div class="container"><header class="App-header"><img src="./SheCodes Dictionary App_files/logoshecodes.730fae98.png" class="App-logo img-fluid" alt="logo"></header><main><div class="Dictionary"><section><h1>What word do you want to look up?</h1><form><input type="search" deafultvalue="sunset"></form><div class="hint">suggested words: sunset, yoga, plant..</div></section><div class="Results"><section><h2>hello</h2><div><div class="Phonetic"><a href="http://ssl.gstatic.com/dictionary/static/sounds/20200429/hello--_gb_1.mp3" target="_blank" rel="noreferrer">Listen</a><span>həˈləʊ</span></div></div><div><div class="Phonetic"><a target="_blank" rel="noreferrer">Listen</a><span>hɛˈləʊ</span></div></div></section><section><div class="Meaning"><h3>exclamation</h3><div><div class="definition">used as a greeting or to begin a phone conversation.</div><div class="example">hello there, Katie!</div><ul class="Synonyms"></ul></div></div></section><section><div class="Meaning"><h3>noun</h3><div><div class="definition">an utterance of ‘hello’; a greeting.</div><div class="example">she was getting polite nods and hellos from people</div><ul class="Synonyms"></ul></div></div></section><section><div class="Meaning"><h3>verb</h3><div><div class="definition">say or shout ‘hello’.</div><div class="example">I pressed the phone button and helloed</div><ul class="Synonyms"></ul></div></div></section></div></div></main></div><footer class="App-footer"><small>Coded by PinkPhi</small></footer></div></div>
+    <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+    -->
+  <script src="./SheCodes Dictionary App_files/bundle.js.descarga"></script><script src="./SheCodes Dictionary App_files/vendors_main.chunk.js.descarga"></script><script src="./SheCodes Dictionary App_files/main.chunk.js.descarga"></script>
+
+</body><grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration></html>

@@ -1,0 +1,26 @@
+webpackHotUpdate("main",{
+
+/***/ "./node_modules/css-loader/dist/cjs.js?!./node_modules/postcss-loader/src/index.js?!./src/Dictionary.css":
+/*!*******************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader/dist/cjs.js??ref--5-oneOf-4-1!./node_modules/postcss-loader/src??postcss!./src/Dictionary.css ***!
+  \*******************************************************************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
+// Imports
+
+var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default()(true);
+// Module
+___CSS_LOADER_EXPORT___.push([module.i, ".Dictionary h1{\r\n    font-size: 18px;\r\n    font-weight: bold;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.Dictionary section {\r\n    background: white;\r\n    padding: 30px;\r\n    border-radius: 6px;\r\n    box-shadow: 0 10px 20px rgba(0 0 0 / 10%);\r\n    margin: 20px 0;\r\n}\r\n\r\n.Dictionary input {\r\n    width: 100%;\r\n    border-radius: 6px;\r\n    padding: 6px 4px;\r\n    border: 1px solid #ddd;\r\n    color: #333;\r\n}\r\n\r\n.Dictionary .hint {\r\n  font-size: 11px;\r\n  margin-top: 5px;\r\n\r\n}", "",{"version":3,"sources":["webpack://src/Dictionary.css"],"names":[],"mappings":"AAAA;IACI,eAAe;IACf,iBAAiB;IACjB,mBAAmB;AACvB;;AAEA;IACI,iBAAiB;IACjB,aAAa;IACb,kBAAkB;IAClB,yCAAyC;IACzC,cAAc;AAClB;;AAEA;IACI,WAAW;IACX,kBAAkB;IAClB,gBAAgB;IAChB,sBAAsB;IACtB,WAAW;AACf;;AAEA;EACE,eAAe;EACf,eAAe;;AAEjB","sourcesContent":[".Dictionary h1{\r\n    font-size: 18px;\r\n    font-weight: bold;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.Dictionary section {\r\n    background: white;\r\n    padding: 30px;\r\n    border-radius: 6px;\r\n    box-shadow: 0 10px 20px rgba(0 0 0 / 10%);\r\n    margin: 20px 0;\r\n}\r\n\r\n.Dictionary input {\r\n    width: 100%;\r\n    border-radius: 6px;\r\n    padding: 6px 4px;\r\n    border: 1px solid #ddd;\r\n    color: #333;\r\n}\r\n\r\n.Dictionary .hint {\r\n  font-size: 11px;\r\n  margin-top: 5px;\r\n\r\n}"],"sourceRoot":""}]);
+// Exports
+/* harmony default export */ __webpack_exports__["default"] = (___CSS_LOADER_EXPORT___);
+
+
+/***/ })
+
+})
+//# sourceMappingURL=main.337c30c970964373c946.hot-update.js.map
