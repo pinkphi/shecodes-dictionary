@@ -10,7 +10,12 @@ export default function Dictionary(props) {
   let [loading, setLoading] = useState(false);
   let [photos, setPhotos] = useState(null);
 
-  function handleDictionResponse(response) {
+  const handlePexelsResponse = useCallback((response) => {
+    setPhotos(response.data.photos);
+    setLoading(false);
+  }, [])
+
+  const handleDictionResponse = useCallback((response) => {
     setResults(response.data[0]);
 
     let pexelsApiKey = "563492ad6f91700001000001920c3b8770e74cfa9e6a9efa97b67713";
@@ -18,19 +23,15 @@ export default function Dictionary(props) {
     let headers = { Authorization: `Bearer ${pexelsApiKey}` };
 
     axios.get(pexelsApiUrl, { headers: headers }).then(handlePexelsResponse);
-  }
+  }, [handlePexelsResponse, keyword])
 
-  function handlePexelsResponse(response) {
-    setPhotos(response.data.photos);
-    setLoading(false);
-  }
 
   const search = useCallback(function() {
     setLoading(true);
     // documentation: https://dictionaryapi.dev/e
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionResponse);
-  }, []);
+  }, [handleDictionResponse, keyword]);
 
   function handleSubmit(event) {
     event.preventDefault();
