@@ -43,7 +43,7 @@ export default function Dictionary(props) {
 
   useEffect(() =>  {
     search();
-  }, [search])
+  }, [])
 
   return loading ? (
     <>
