@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
 import Results from "./Results";
 import Photos from "./Photos";
@@ -25,12 +25,12 @@ export default function Dictionary(props) {
     setLoading(false);
   }
 
-  function search() {
+  const search = useCallback(function() {
     setLoading(true);
     // documentation: https://dictionaryapi.dev/e
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleDictionResponse);
-  }
+  }, []);
 
   function handleSubmit(event) {
     event.preventDefault();
@@ -43,7 +43,7 @@ export default function Dictionary(props) {
 
   useEffect(() =>  {
     search();
-  }, [])
+  }, [search]);
 
   return loading ? (
     <>
