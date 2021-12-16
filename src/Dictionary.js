@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useCallback } from "react";
 import axios from "axios";
+import debounce from "lodash/debounce";
 import Results from "./Results";
 import Photos from "./Photos";
 import "./Dictionary.css";
@@ -57,7 +58,7 @@ export default function Dictionary(props) {
         <form onSubmit={handleSubmit}>
           <input
             type="search"
-            onChange={handleKeywordChange}
+            onChange={debounce(handleKeywordChange, 250)}
             defaultValue={props.defaultKeyword}
           />
         </form>
